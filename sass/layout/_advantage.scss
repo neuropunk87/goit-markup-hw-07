@@ -1,0 +1,38 @@
+.advantage.section {
+  padding-bottom: 0;
+}
+
+.advantage {
+  &__list {
+    display: flex;
+  }
+  &__item:not(:last-child) {
+    margin-right: $margin-gap;
+  }
+  &__thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: getColor('background');
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: $margin-gap;
+  }
+  &__title {
+    color: getColor('primary-text');
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    min-width: 270px;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    width: 270px;
+  }
+}

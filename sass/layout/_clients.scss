@@ -1,0 +1,32 @@
+.clients {
+  &__title {
+    @extend %work-team-clients-Title;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__item {
+    margin-right: $margin-gap;
+  }
+  &__item:last-child {
+    margin-right: 0;
+  }
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: getColor('social-link');
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    transition: border-color $duration $timing-function, fill $duration $timing-function;
+  }
+  &__link:hover,
+  &__link:focus {
+    border-color: getColor('accent');
+    fill: getColor('accent');
+  }
+}
