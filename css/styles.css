@@ -342,6 +342,8 @@ button {
 }
 
 .form__label {
+  display: block;
+
   color: var(--secondary-text);
 
   font-weight: 400;
