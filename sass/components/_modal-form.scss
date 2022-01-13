@@ -25,6 +25,7 @@
     margin-bottom: 20px;
   }
   &__label {
+    display: block;
     color: getColor('secondary-text');
     font-weight: 400;
     font-size: 12px;

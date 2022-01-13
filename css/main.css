@@ -296,6 +296,7 @@ button {
 }
 
 .form__label {
+  display: block;
   color: #757575;
   font-weight: 400;
   font-size: 12px;
